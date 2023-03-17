@@ -1,0 +1,28 @@
+{
+  "name": "isaaclist",
+  "version": "1.0.0",
+  "description": "Showing x items from the game The binding of Isaac : Rebirth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montaldoTh/IsaacItemList.git"
+  },
+  "keywords": [
+    "Isaac",
+    "NodeJS",
+    "Javascript"
+  ],
+  "author": "MONTALDO Théo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montaldoTh/IsaacItemList/issues"
+  },
+  "homepage": "https://github.com/montaldoTh/IsaacItemList#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
