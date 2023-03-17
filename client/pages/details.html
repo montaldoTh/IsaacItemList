@@ -21,45 +21,38 @@
             <div class="title">
                 <h2>Objet X</h2>
             </div>
-            <div class="tableCont">
-                <table class="table table-striped-columns">
-                    <thead>
-                        <th>id</th>
-                        <th>name</th>
-                        <th>icon</th>
-                        <th>quote</th>
-                        <th>description</th>
-                        <th>quality</th>
-                        <th>modif</th>
-                    </thead>
-                    <tbody id="itemCarac">
-                        <td id="id">
-                            
-                        </td>
-                        <td>
-                            <input id="name"></input>
-                        </td>
-                        <td>
-                            <img id="icon" src="">
-                        </td>
-                        <td>
-                            <input id="quote"></input>
-                        </td>
-                        <td>
-                            <input id="description"></input>
-                        </td>
-                        <td>
-                            <input id="quality"></input>
-                        </td>
-                        <td>
-                            <button id="modif" class="btn btn-success">
-                                <i class="fa-solid fa-pen-to-square"></i>
-                            </button>
-                        </td>
-                    </tbody>
-                </table>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="col-4">
+                            <label for="icon">Icon</label>
+                            <img id="icon" name="icon" src="">
+                        </div>
+                        <div class="col-4">
+                            <label for="quality">Quality</label>
+                            <input type="text" id="quality" name="quality">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="quote">Quote</label>
+                        <input type="text" id="quote" name="quote">
+                    </div>
+                    <div class="col-4">
+                        <label for="description">Description</label>
+                        <input type="text" id="description" name="description">
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-success" id="modif"><i class="fa-solid fa-floppy-disk"></i></button>
+                    </div>
+                </div>
             </div>
-            <a class="btn btn-dark" href="/">Retour a la liste</a>
+            <a class="btn btn-dark mt-5" href="/">Back to the list</a>
         </div>
     </section>
 </body>

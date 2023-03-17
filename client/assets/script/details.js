@@ -5,7 +5,6 @@ let id = window.location.hash.substring(1)
 let itemService = new ItemService
 
 let title = document.querySelector('.title h2')
-let idCont = document.querySelector('#id')
 let nameCont = document.querySelector('#name')
 let icon = document.querySelector('#icon')
 let quoteCont = document.querySelector('#quote')
@@ -15,7 +14,6 @@ let qualityCont = document.querySelector('#quality')
 let item = itemService.get(id)
 item.then((obj)=>{
     title.innerText= obj.name
-    idCont.innerText= obj.id
     icon.setAttribute('src',obj.icon)
     nameCont.value= obj.name
     quoteCont.value= obj.quote
