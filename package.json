@@ -4,7 +4,7 @@
   "description": "Showing x items from the game The binding of Isaac : Rebirth",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/montaldoTh/IsaacItemList#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.21"
   }
 }
